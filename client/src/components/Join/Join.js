@@ -27,13 +27,13 @@ export default function SignIn() {
             onChange={(event) => setRoom(event.target.value)}
           />
         </div>
-        {/* <Link
+        <Link
           onClick={(e) => (!name || !room ? e.preventDefault() : null)}
           to={`/chat?name=${name}&room=${room}`}>
           <button className={"button mt-20"} type='submit'>
             Sign In
           </button>
-        </Link> */}
+        </Link>
       </div>
     </div>
   );
