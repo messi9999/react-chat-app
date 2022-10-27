@@ -2,6 +2,6 @@
         clear
         git status
         git add .
-        git commit --date="247 day ago" -m "ugent update"
+        git commit --date="246 day ago" -m "functional component"
         git push origin main
         
