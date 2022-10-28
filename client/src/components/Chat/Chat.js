@@ -45,13 +45,13 @@ const Chat = ({ location }) => {
     });
   }, []);
 
-  const sendMessage = (event) => {
-    event.preventDefault();
+  // const sendMessage = (event) => {
+  //   event.preventDefault();
 
-    if (message) {
-      socket.emit("sendMessage", message, () => setMessage(""));
-    }
-  };
+  //   if (message) {
+  //     socket.emit("sendMessage", message, () => setMessage(""));
+  //   }
+  // };
 
   return (
     <div className='outerContainer'>
@@ -64,7 +64,7 @@ const Chat = ({ location }) => {
           sendMessage={sendMessage}
         />
       </div>
-      {/* <TextContainer users={users} /> */}
+      <TextContainer users={users} />
     </div>
   );
 };
