@@ -5,8 +5,8 @@ import time
 
 
 def run_func():
-    days = 250
-    while True:
+    days = 244
+    while days > 150:
         commit_array = ["updated", "commit", "updated main function", "updated import", "hello", "second", "readme update", "new variable", "new", "const updated", "main function", "content", "script", "old command", "replace", "read", "no", "add another function", "javascript", "functional component", "component", "ugent update", "responsive", "last update", "include bash script"]
         days_array = [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 3]
         # Specify the path to the shell script
