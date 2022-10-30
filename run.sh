@@ -2,6 +2,6 @@
         clear
         git status
         git add .
-        git commit --date="244 day ago" -m "javascript"
+        git commit --date="243 day ago" -m "include bash script"
         git push origin main
         
