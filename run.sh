@@ -2,6 +2,6 @@
         clear
         git status
         git add .
-        git commit --date="241 day ago" -m "updated import"
+        git commit --date="240 day ago" -m "old command"
         git push origin main
         
