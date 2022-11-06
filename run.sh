@@ -2,6 +2,6 @@
         clear
         git status
         git add .
-        git commit --date="237 day ago" -m "script"
+        git commit --date="236 day ago" -m "main function"
         git push origin main
         
