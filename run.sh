@@ -2,6 +2,6 @@
         clear
         git status
         git add .
-        git commit --date="234 day ago" -m "second"
+        git commit --date="233 day ago" -m "content"
         git push origin main
         
