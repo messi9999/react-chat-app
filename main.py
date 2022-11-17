@@ -22,11 +22,11 @@ def run_func():
         commit = random.choice(commit_array)
         old_command = script_contents
         new_command = """
-        clear
-        git status
-        git add .
-        git commit --date="{} day ago" -m "{}"
-        git push origin main
+clear
+git status
+git add .
+git commit --date="{} day ago" -m "{}"
+git push origin main
         """.format(days, commit)
 
         updated_contents = script_contents.replace(old_command, new_command)
@@ -38,7 +38,7 @@ def run_func():
 
         # Run the updated shell script
         subprocess.run(['bash', script_path])
-        time.sleep(9)
+        time.sleep(5)
         days = days - random.choice(days_array)
 
 if __name__ == "__main__":
