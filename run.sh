@@ -2,6 +2,6 @@
 clear
 git status
 git add .
-git commit --date="220 day ago" -m "include bash script"
+git commit --date="217 day ago" -m "responsive"
 git push origin main
         
