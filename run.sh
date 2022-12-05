@@ -2,6 +2,6 @@
 clear
 git status
 git add .
-git commit --date="208 day ago" -m "component"
+git commit --date="207 day ago" -m "updated import"
 git push origin main
         
