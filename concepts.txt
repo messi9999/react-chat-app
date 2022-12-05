@@ -1,1 +1,1 @@
-mainframe system and the development of various machine learning and natural 
+I worked on the development of tools that were able to predict failures in the
