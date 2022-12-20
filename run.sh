@@ -2,6 +2,6 @@
 clear
 git status
 git add .
-git commit --date="193 day ago" -m "main function"
+git commit --date="192 day ago" -m "read"
 git push origin main
         
