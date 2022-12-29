@@ -1,1 +1,1 @@
-I was elated to see an opening for this project.
+I worked on the development of tools that were able to predict failures in the
