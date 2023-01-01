@@ -2,6 +2,6 @@
 clear
 git status
 git add .
-git commit --date="183 day ago" -m "content"
+git commit --date="180 day ago" -m "no"
 git push origin main
         
