@@ -2,6 +2,6 @@
 clear
 git status
 git add .
-git commit --date="168 day ago" -m "readme update"
+git commit --date="166 day ago" -m "responsive"
 git push origin main
         
