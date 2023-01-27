@@ -1,1 +1,1 @@
-I worked on the development of tools that were able to predict failures in the
+Tech stacks which are good fit for this project
