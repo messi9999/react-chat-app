@@ -10,7 +10,7 @@ export default function SignIn() {
   return (
     <div className='joinOuterContainer'>
       <div className='joinInnerContainer'>
-        <h1 className='heading'>Join us</h1>
+        <h1 className='heading'>Join</h1>
         <div>
           <input
             placeholder='Name'
